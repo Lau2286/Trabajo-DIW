@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Aceites de Jaén</title>
+</head>
+
+<body>
+    <header> <!-- Cabecera -->
+        <div class="navbar">
+            <p></p>
+            <div class="menu-btn">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="indexEN.html">Star</a></li>
+                <li><a href="quienesSomosEN.html">About Us</a></li>
+                <li><a href="nuestrosProductosEN.html">Our Products</a></li>
+                <li><a href="tiendaEN.html">Store</a></li>
+                <li><a href="formulario2EN.html"><i class="fas fa-user"></i></a></li>
+                <li><a href="carrito.html"><i class="fas fa-shopping-cart"></i></a></li>
+                <li><a href="contacto.html">ES</a></li>
+                <li>|</li>
+                <li><a href="contactoEN.html">EN</a></li>
+            </ul>
+        </div>
+        <div class="container-fluid">
+            <div class="titulo">
+                <img class="logo" src="../Imagenes/logo.png" alt="Logo">
+                <p>Jaen Oils</p>
+            </div>
+
+        </div>
+
+    </header>
+    <div class="container-fluid">
+        <form class="formulario" action="" method="POST">
+            <h2 class="form_title">YOU WANT TO CONTACT US</h2>
+            <h3 class="form_title">Call us or send us a message</h3>
+            <div class="row">
+                <div class="col-md-8">
+                    Name: <input type="text" class="form_input" name="nombre" id="nombre"
+                        placeholder="Enter your name" required>
+                    Surnames: <input type="text" class="form_input" id="apellidos" name="apellidos"
+                        placeholder="Enter your surname" required><br><br>
+                    Email: <input type="text" class="form_input" id="email" name="email"
+                        placeholder="Enter your email" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" title="Email no válido">
+                    Phone: <input type="text" class="form_input" name="telefono" id="telefono"
+                        placeholder="Enter your phone" pattern="[0-9]{9}" title="Debe tener 9 números"
+                        minlength="0" maxlength="9"><br><br>
+                    <textarea class="form_input form_input--message" name="observaciones" placeholder="Message:"
+                        rows="5" cols="50"></textarea>
+                    <input type="submit" value="Send" class="botonProductos">
+                </div>
+                <div class="col-md-4">
+                    <p class="contacto">+34 985 111 222 333<br>
+                        <strong>Customer service schedule:</strong><br>
+                        Mornings de 9.00 a 14.00<br>
+                        Afternoon: 16.00 a 19.00<br>
+                        <strong>ADDRESS</strong><br>
+                        Ctra del Contriz, S/N
+                        33012 Bujalance (Jerez)
+                    </p>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="container">
+        <h5>Here you can find us</h5>
+        <div div class="ratio ratio-16x9">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23204.534436282982!2d-5.849087999999999!3d43.365171200000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd368d90370edae5%3A0xf9a36be6a7780202!2s33194%20La%20Contriz%2C%20Asturias!5e0!3m2!1ses!2ses!4v1698932761452!5m2!1ses!2ses"
+                width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <a href="contactoEN.html"><span class="BotonSubir">Upload<span></a><br>
+    <hr>
+    
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4">
+                    <p>Visit us in:</p>
+                    <a href="https://es-es.facebook.com/EnviosGENEI/" target="_blank">
+                        <i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/GENEI_ES?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                        target="_blank">
+                        <i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/genei.es/" target="_blank">
+                        <i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="col-4">
+                        <p class="pPie">Contact us</p>
+                        <p>Blog</p>
+                        <p>About Us</p>
+                    </div>
+                    <div class="col-4">Terms and Conditions</div>
+                </div>
+            </div>
+        </footer>
+    <script src="../js/codigo.js"></script>
+</body>
+
+</html>
